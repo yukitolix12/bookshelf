@@ -25,6 +25,7 @@ public class Book implements Comparable<Book>, Cloneable{
         if(!title.equals(b.title)){
             return false;
         }
+        return true;
     }
     public int compareTo(Book o){
         return this.publishDate.compareTo(o.publishDate);
